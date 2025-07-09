@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Spinner from "../components/Spinner";
+import Spinner from "../Components/Spinner";
 import Product from "../components/Product";
 import { hardCodedData } from "../data";
 
