@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Spinner from "../components/Spinner";
 import Product from "../components/Product";
-import { products } from "../data";
+import { hardCodedData } from "../data";
 
 const Home = () => {
   const API_URL = "https://fakestoreapi.com/products";
@@ -13,7 +13,7 @@ const Home = () => {
 
     try{
       // const res = await fetch(API_URL);
-      const data = products;
+      const data = hardCodedData;
 
       setPosts(data);
     }
